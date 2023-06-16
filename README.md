@@ -4,6 +4,17 @@ Check packages before:
 ```
 pip list
 ```
+
+### Install build environment
+```
+pip install build
+```
+
+### Build whl package
+```
+py -m build --wheel
+```
+
 ### How to use
 Run from **git-directory**:
 ```
